@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     }
 
-    @Override
+    @Override 
     protected void onStop() {
         super.onStop();
         // unregister sensor listeners
